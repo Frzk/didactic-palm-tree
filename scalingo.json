@@ -5,6 +5,12 @@
       "options": {
         "version": "14.6.0"
       }
+    },
+    {
+      "plan": "mysql:mysql-starter-512",
+      "options": {
+        "version": "5.7.38"
+      }
     }
   ],
 
