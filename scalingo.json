@@ -1,0 +1,16 @@
+{
+  "addons": [
+    {
+      "plan": "postgresql:postgresql-starter-512",
+      "options": {
+        "version": "14.6.0"
+      }
+    }
+  ],
+
+  "env": {
+    "CANONICAL_HOST_URL": {
+      "generator": "url"
+    }
+  }
+}
