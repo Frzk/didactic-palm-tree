@@ -11,6 +11,9 @@
       "options": {
         "version": "5.7.38"
       }
+    },
+    {
+      "plan": "redis:redis-starter-128"
     }
   ],
 
@@ -18,5 +21,9 @@
     "CANONICAL_HOST_URL": {
       "generator": "url"
     }
+  },
+
+  "scripts": {
+    "first-deploy": "bundle exec rake db:deploy db:seed"
   }
 }
